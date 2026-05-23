@@ -240,16 +240,16 @@ body {
 }
 
 /* ================================================
-   THE CERTIFICATE  (1050 × 740 px)
+   THE CERTIFICATE  (1920 × 1080 px)
    ================================================ */
 .certificate {
   position: relative;
-  width: 1050px;
-  height: 740px;
+  width: 1920px;
+  height: 1080px;
   background: var(--maroon);
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 0 0 1px #000, 0 32px 90px rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 0 1px #000, 0 40px 120px rgba(0, 0, 0, 0.85);
 }
 
 /* --- Floral texture --- */
@@ -258,7 +258,7 @@ body {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55' height='55'%3E%3Cg fill='%23F5A0A8' opacity='0.2'%3E%3Ccircle cx='27.5' cy='27.5' r='2'/%3E%3Ccircle cx='27.5' cy='19'   r='2.2'/%3E%3Ccircle cx='27.5' cy='36'   r='2.2'/%3E%3Ccircle cx='19'   cy='27.5' r='2.2'/%3E%3Ccircle cx='36'   cy='27.5' r='2.2'/%3E%3Ccircle cx='21.5' cy='21.5' r='1.8'/%3E%3Ccircle cx='33.5' cy='21.5' r='1.8'/%3E%3Ccircle cx='21.5' cy='33.5' r='1.8'/%3E%3Ccircle cx='33.5' cy='33.5' r='1.8'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='%23F5A0A8' opacity='0.18'%3E%3Ccircle cx='37.5' cy='37.5' r='2.8'/%3E%3Ccircle cx='37.5' cy='26'   r='3'/%3E%3Ccircle cx='37.5' cy='49'   r='3'/%3E%3Ccircle cx='26'   cy='37.5' r='3'/%3E%3Ccircle cx='49'   cy='37.5' r='3'/%3E%3Ccircle cx='29'   cy='29'   r='2.4'/%3E%3Ccircle cx='46'   cy='29'   r='2.4'/%3E%3Ccircle cx='29'   cy='46'   r='2.4'/%3E%3Ccircle cx='46'   cy='46'   r='2.4'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: repeat;
 }
 
@@ -287,10 +287,10 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 46px;
+  width: 80px;
   z-index: 2;
   pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='88'%3E%3Cg fill='none' stroke='%23C9A84C' stroke-opacity='0.5' stroke-width='1.2'%3E%3Cpath d='M23 4 Q31 16 23 28 Q15 40 23 52 Q31 64 23 76 Q15 88 23 88'/%3E%3C/g%3E%3Ccircle cx='23' cy='4'  r='3.5' fill='%23C9A84C' fill-opacity='0.55'/%3E%3Ccircle cx='23' cy='28' r='2.5' fill='%23C9A84C' fill-opacity='0.45'/%3E%3Ccircle cx='23' cy='52' r='2.5' fill='%23C9A84C' fill-opacity='0.45'/%3E%3Ccircle cx='23' cy='76' r='2.5' fill='%23C9A84C' fill-opacity='0.45'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='140'%3E%3Cg fill='none' stroke='%23C9A84C' stroke-opacity='0.5' stroke-width='1.8'%3E%3Cpath d='M40 6 Q54 27 40 48 Q26 69 40 90 Q54 111 40 132 Q26 153 40 140'/%3E%3C/g%3E%3Ccircle cx='40' cy='6'   r='5.5' fill='%23C9A84C' fill-opacity='0.55'/%3E%3Ccircle cx='40' cy='48'  r='4'   fill='%23C9A84C' fill-opacity='0.45'/%3E%3Ccircle cx='40' cy='90'  r='4'   fill='%23C9A84C' fill-opacity='0.45'/%3E%3Ccircle cx='40' cy='132' r='4'   fill='%23C9A84C' fill-opacity='0.45'/%3E%3C/svg%3E");
   background-repeat: repeat-y;
   background-position: center top;
 }
@@ -307,13 +307,13 @@ body {
 }
 
 .border-outer {
-  inset: 12px;
-  border: 2px solid rgba(201, 168, 76, 0.78);
+  inset: 20px;
+  border: 3px solid rgba(201, 168, 76, 0.78);
 }
 
 .border-inner {
-  inset: 19px;
-  border: 1px solid rgba(201, 168, 76, 0.38);
+  inset: 30px;
+  border: 1.5px solid rgba(201, 168, 76, 0.38);
 }
 
 /* --- Corner ornaments --- */
@@ -321,22 +321,22 @@ body {
   position: absolute;
   z-index: 4;
   color: var(--gold);
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1;
   user-select: none;
 }
 
-.c-tl { top: 4px;    left: 4px; }
-.c-tr { top: 4px;    right: 4px; }
-.c-bl { bottom: 4px; left: 4px; }
-.c-br { bottom: 4px; right: 4px; }
+.c-tl { top: 7px;    left: 7px; }
+.c-tr { top: 7px;    right: 7px; }
+.c-bl { bottom: 7px; left: 7px; }
+.c-br { bottom: 7px; right: 7px; }
 
 /* ================================================
    CERTIFICATE CONTENT
    ================================================ */
 .cert-content {
   position: absolute;
-  inset: 28px 54px 24px 54px;
+  inset: 50px 100px 42px 100px;
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -351,25 +351,25 @@ body {
 .rule-row {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   width: 100%;
 }
 
 .rule-bar {
   flex: 1;
-  height: 1px;
+  height: 1.5px;
   background: var(--gold-pale);
 }
 
-.rule-bar.short { max-width: 70px; flex: none; }
+.rule-bar.short { max-width: 120px; flex: none; }
 
 .rule-gem {
   color: var(--gold);
-  font-size: 13px;
+  font-size: 20px;
   flex-shrink: 0;
 }
 
-.rule-gem.small { font-size: 10px; }
+.rule-gem.small { font-size: 15px; }
 
 .thin-rule { opacity: 0.7; }
 
@@ -378,22 +378,22 @@ body {
 
 .cert-urdu {
   font-family: 'Noto Nastaliq Urdu', serif;
-  font-size: 50px;
+  font-size: 90px;
   color: var(--cream);
   direction: rtl;
   line-height: 1.4;
   padding-bottom: 0;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 3px 20px rgba(0, 0, 0, 0.45);
 }
 
 .cert-eng-brand-spacer {
-  height: 32px;
+  height: 56px;
 }
 
 .cert-eng-brand {
   font-family: 'Cinzel', serif;
-  font-size: 9px;
-  letter-spacing: 3.5px;
+  font-size: 15px;
+  letter-spacing: 6px;
   color: var(--gold-lt);
   margin-top: 0;
 }
@@ -401,15 +401,15 @@ body {
 /* Certificate type */
 .cert-type {
   font-family: 'Cinzel Decorative', serif;
-  font-size: 21px;
+  font-size: 38px;
   color: var(--gold-lt);
-  letter-spacing: 1px;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* Presented to */
 .cert-presented {
-  font-size: 14.5px;
+  font-size: 24px;
   font-style: italic;
   color: rgba(247, 237, 217, 0.72);
   letter-spacing: 0.5px;
@@ -418,39 +418,39 @@ body {
 /* Recipient name — the star of the show */
 .cert-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 44px;
+  font-size: 82px;
   font-weight: 600;
   color: #ffffff;
-  letter-spacing: 1.5px;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+  letter-spacing: 2px;
+  text-shadow: 0 3px 24px rgba(0, 0, 0, 0.35);
   line-height: 1.15;
 }
 
 /* Department */
 .cert-dept {
   font-family: 'Cinzel', serif;
-  font-size: 11.5px;
-  letter-spacing: 2px;
+  font-size: 20px;
+  letter-spacing: 4px;
   color: var(--gold-lt);
 }
 
-/* Role */
+/* Team */
 .cert-role {
-  font-size: 14.5px;
+  font-size: 26px;
   font-style: italic;
   color: rgba(247, 237, 217, 0.78);
 }
 
 /* Body copy */
 .cert-body {
-  font-size: 13.5px;
+  font-size: 22px;
   line-height: 1.75;
   color: rgba(247, 237, 217, 0.68);
 }
 
 .inline-urdu {
   font-family: 'Noto Nastaliq Urdu', serif;
-  font-size: 18px;
+  font-size: 32px;
   direction: rtl;
   color: var(--cream);
 }
@@ -460,36 +460,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: 22px;
   width: 100%;
 }
 
-.mentor { text-align: center; min-width: 120px; }
+.mentor { text-align: center; min-width: 200px; }
 
 .mentor-line {
-  width: 130px;
+  width: 220px;
   height: 1px;
   background: var(--gold-pale2);
-  margin: 0 auto 7px;
+  margin: 0 auto 10px;
 }
 
 .mentor-name {
   font-family: 'Cinzel', serif;
-  font-size: 11.5px;
+  font-size: 19px;
   color: var(--cream);
   letter-spacing: 0.5px;
 }
 
 .mentor-title {
-  font-size: 12px;
+  font-size: 17px;
   font-style: italic;
   color: var(--gold-lt);
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .mentor-sep {
   color: var(--gold);
-  font-size: 15px;
+  font-size: 22px;
   flex-shrink: 0;
-  margin-top: -6px;
+  margin-top: -8px;
 }
